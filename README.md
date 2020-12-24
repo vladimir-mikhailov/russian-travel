@@ -1,5 +1,7 @@
 # Проект 3: Путешествие по России
 
+* [Ссылка на проект на GitHub Pages](https://vladimir-mikhailov.github.io/russian-travel/)
+
 ### Обзор
 * Интро
 * Figma

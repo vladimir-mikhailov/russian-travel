@@ -9,5 +9,7 @@
   /* Отрисовка кёрнинга и лигатур нужны здесь? */
   text-rendering: optimizeLegibility;
   /* Font */
-
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  /* Background */
+  background-color: #2A2C2F;
 }

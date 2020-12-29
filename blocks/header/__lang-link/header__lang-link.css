@@ -2,11 +2,7 @@
   color: #fff;
   text-decoration: none;
   transition: opacity .5s;
-  margin-right: 18px;
-}
-
-.header__lang-link:last-child {
-  margin-right: 0;
+  margin: 0;
 }
 
  .header__lang-link:link:hover {

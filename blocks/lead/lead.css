@@ -5,13 +5,13 @@
 
 @media screen  and (min-width: 1024px) {
   .lead {
-    padding: 56px 148 px 0;
+    padding: 48px 48px 0;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .lead {
-    padding: 48px 48px 0;
+    padding: 56px 148px 0;
   }
 }
 

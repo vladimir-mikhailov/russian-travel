@@ -1,0 +1,7 @@
+.lead__image-waypoints {
+  width: 95%;
+  position: absolute;
+  top: 14.3%; /* или calc(100% / 7); */
+  left: 2.5%;
+  z-index: 1;
+}

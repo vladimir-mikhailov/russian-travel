@@ -1,0 +1,24 @@
+.lead {
+  padding: 48px 0 0;
+  margin: 0 auto;
+}
+
+@media screen  and (min-width: 1024px) {
+  .lead {
+    padding: 56px 148 px 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead {
+    padding: 48px 48px 0;
+  }
+}
+
+/* Картинка не растягивается шире максимальной ширины */
+@media screen and (min-width: 2152px) { /* 1856px + 148px * 2 */
+  .lead {
+    padding: 56px 0 0;
+    max-width: 1856px;
+  }
+}

@@ -1,0 +1,29 @@
+.intro {
+  padding: 64px 16px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .intro {
+    padding: 88px 24px 0;
+    max-width: 720px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .intro {
+    padding: 92px 0 0 48px;
+    width: 690px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .intro {
+    padding-left: 148px;
+  }
+}
+
+@media screen and (min-width: 2152px) {
+  .intro {
+    padding-left: calc((100% - 1856px) / 2);
+  }
+}

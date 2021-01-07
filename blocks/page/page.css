@@ -8,8 +8,7 @@
   -moz-text-size-adjust: 100%;
   /* Отрисовка кёрнинга и лигатур нужны здесь? */
   text-rendering: optimizeLegibility;
-  /* Font */
   font-family: 'Inter', Arial, Helvetica, sans-serif;
-  /* Background */
   background-color: #2A2C2F;
+  color: #fff;
 }

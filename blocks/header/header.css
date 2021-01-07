@@ -4,7 +4,6 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
-  background-color: #2A2C2F;
 }
 
 @media screen and (max-width: 768px) {

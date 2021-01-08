@@ -1,0 +1,23 @@
+.photo-grid {
+  padding: 64px 16px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .photo-grid {
+    padding: 88px 24px 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .photo-grid {
+    padding: 92px 48px 0;
+  }
+}
+
+/* Чтобы не раздвигались гэпы на гигантских экранах */
+@media screen and (min-width: 3344px) {
+  .photo-grid {
+    padding: 92px 0 0;
+    margin: 0 auto;
+  }
+}

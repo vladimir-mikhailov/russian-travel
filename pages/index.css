@@ -18,6 +18,7 @@
 
 /* Content */
 @import url(../blocks/content/content.css); /* ? */
+@import url(../blocks/article/article.css);
 
 /* Lead */
 @import url(../blocks/lead/lead.css);
@@ -38,6 +39,10 @@
 @import url(../blocks/intro/__list-item-digit/intro__list-item-digit.css);
 
 /* Photo-Grid */
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__container/photo-grid__container.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+@import url(../blocks/photo-grid/__image/photo-grid__image.css);
 
 
 /* Footer */

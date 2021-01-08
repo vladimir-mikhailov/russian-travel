@@ -1,0 +1,5 @@
+.photo-grid__image {
+  width: 100%;
+  object-fit: cover; /* Если загрузят другие размеры - обрежется */
+  object-position: top left;
+}

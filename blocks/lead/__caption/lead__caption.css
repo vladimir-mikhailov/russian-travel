@@ -3,7 +3,7 @@
   font-size: 10px;
   line-height: 1.4;
   text-transform: uppercase;
-  letter-spacing: calc(10px * 0.15);
+  letter-spacing: 0.15em;
   padding: 8px 0 0 16px;
 }
 

@@ -1,0 +1,25 @@
+.place__image {
+  width: 100%;
+  margin-top: 48px;
+}
+
+@media screen and (min-width: 425px) {
+  .place__image {
+    width: calc(50% - 20px);
+    margin-right: 28px;
+    position: sticky; /* Картинка всегда рядом с длинным текстом */
+    top: 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .place__image {
+    width: calc(50% - 24px);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place__image {
+    width: calc(50% - 32px);
+  }
+}

@@ -1,0 +1,30 @@
+.places {
+  padding-top: 64px;
+}
+
+@media screen and (min-width: 425px) {
+  .places {
+    padding: 88px 24px 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .places {
+    padding: 92px 48px 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .places {
+    padding: 92px 148px 0;
+  }
+}
+
+/* Чтобы секция не растягивалась шире, чем lead на гигантских экранах */
+@media screen and (min-width: 2152px) {
+  .places {
+    padding: 92px 0 0;
+    margin: 0 auto;
+    max-width: 1852px;
+  }
+}

@@ -1,0 +1,22 @@
+.place {
+  padding-top: 50px;
+}
+
+.place:first-child {
+  padding-top: 0;
+}
+
+@media screen and (min-width: 425px) {
+  .place {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding-top: 73px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .place {
+    padding-top: 80px;
+  }
+}

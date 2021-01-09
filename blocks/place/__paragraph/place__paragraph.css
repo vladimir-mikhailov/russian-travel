@@ -1,0 +1,13 @@
+.place__paragraph {
+  margin-top: 25px;
+}
+
+.place__paragraph:first-child {
+  margin: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .place__paragraph {
+    margin-top: 27px;
+  }
+}

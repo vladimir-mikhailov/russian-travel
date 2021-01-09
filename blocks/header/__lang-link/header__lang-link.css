@@ -2,4 +2,11 @@
   color: #fff;
   text-decoration: none;
   margin: 0;
+  transition: opacity .2s;
+}
+
+@media screen and (min-width: 1024px) {
+  .header__lang-link:hover {
+    opacity: .8;
+  }
 }

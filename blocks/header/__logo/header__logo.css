@@ -5,11 +5,13 @@
   background-size: contain;
   background-repeat: no-repeat;
   flex-shrink: 0;
-  transition: opacity .5s;
+  transition: opacity .2s;
 }
 
-.header__logo:hover {
-  opacity: .5;
+@media screen and (min-width: 1024px) {
+  .header__logo:hover {
+    opacity: .8;
+  }
 }
 
 @media screen and (min-width: 425px) {

@@ -1,0 +1,31 @@
+.cover {
+  margin: 66px 0 64px;
+  max-width: 2048px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+@media screen and (min-width: 425px) {
+  .cover {
+    margin: 90px 0 88px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover {
+    margin: 92px 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover {
+    margin: 92px 48px;
+  }
+}
+
+@media screen and (min-width: 2144px) {
+  .cover {
+    margin: 92px auto 0;
+  }
+}

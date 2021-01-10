@@ -7,6 +7,7 @@
   white-space: pre-line;
   position: relative;
   z-index: 1;
+  transition: opacity .2s;
 }
 
 @media screen and (min-width: 592px) {
@@ -21,5 +22,11 @@
     font-size: 72px;
     line-height: 76px;
     margin: 0 auto 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover__title:hover {
+    opacity: .8;
   }
 }

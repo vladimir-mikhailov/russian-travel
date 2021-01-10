@@ -13,7 +13,7 @@
   content: '';
   width: 100%;
   height: calc(100vw / 1.6);
-  background-image: url(../../../images/cover-trains.jpg);
+  background-image: url(../../images/cover-trains.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   opacity: .7;

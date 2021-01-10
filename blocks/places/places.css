@@ -21,10 +21,10 @@
 }
 
 /* Чтобы секция не растягивалась шире, чем lead на гигантских экранах */
-@media screen and (min-width: 2152px) {
+/* @media screen and (min-width: 2152px) {
   .places {
     padding: 92px 0 0;
     margin: 0 auto;
     max-width: 1852px;
   }
-}
+} */

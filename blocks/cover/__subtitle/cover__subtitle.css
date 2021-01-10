@@ -6,13 +6,20 @@
   margin: 0 16px 0;
   max-width: 360px;
   white-space: pre-line;
+  position: relative;
+  z-index: 1;
+}
+
+@media screen and (min-width: 392px) {
+  .cover__subtitle {
+    margin: 0 auto;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .cover__subtitle {
     font-size: 18px;
     line-height: 22px;
-    margin: 0 auto;
     white-space: normal;
   }
 }

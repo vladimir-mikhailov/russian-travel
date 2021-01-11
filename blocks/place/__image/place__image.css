@@ -3,7 +3,7 @@
   margin-top: 48px;
 }
 
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 768px) {
   .place__image {
     width: calc(50% - 20px);
     margin-right: 28px;

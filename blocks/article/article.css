@@ -1,4 +1,0 @@
-.article {
-  display: flex; /* чтобы отцентровать grid_photo на гиганстких экранах */
-  flex-direction: column;
-}

@@ -13,7 +13,7 @@
   .footer__menu-list-item {
     font-size: 16px;
     line-height: 18px;
-    margin-bottom: 0;
+    margin-bottom: 0; /* Здесь нет дублирования, стили меняются на разной ширине с вертикальных на горизонтальные отступы */
     margin-right: 18px;
   }
   .footer__menu-list-item:last-child {
